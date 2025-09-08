@@ -46,11 +46,14 @@ const formatDate = (dateString) => {
           <span>{concert.venue}</span>
         </div>
         <div className="text-right">
+            {/*
           <div className="text-xs font-medium text-gray-900">{concert.price}</div>
+          
           <button className="text-orange-600 hover:text-orange-700 text-xs flex items-center mt-1">
             Details
             <ExternalLink className="w-3 h-3 ml-1" />
           </button>
+          */}
         </div>
       </div>
     </div>
